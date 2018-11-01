@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <title>テスト</title>
+
+</head>
+<body>
+<div id="buttongroup">
+  <button id="btn1">1</button>
+  <button id="btn2">2</button>
+  <button id="btn3">3</button>
+</div>
+
+
+</body>
+<script type="text/javascript">
+"use strict"
+function btnclick(test){
+  alert(test.target.innerHTML);
+}
+
+
+  window.addEventListener("load",
+  function(){
+    var btndiv = document.getElementById("buttongroup");
+    btndiv.addEventListener("click",btnclick,false);
+
+
+  },
+  false);
+
+
+
+
+
+</script>
+
+</html>
