@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset = "utf-8">
+  <title>プログラミング忘備録</title>
+  <link rel="stylesheet" href="css/menu.css">
+</head>
+<html>
+<body>
+<header>
+  <div id="menu">
+    <div class="menuItem HTML">
+      <p>HTML</p>
+      <div class="tree" data-tree="htmlAbc">
+        <p>ABC順</p>
+      </div>
+      <div class="tree" data-tree="htmlObject">
+        <p>目的別</p>
+      </div>
+    </div>
+    <div class="menuItem CSS">
+      <p>CSS</p>
+      <div class="tree" data-tree="cssAbc">
+      <p>ABC順</p>
+      </div>
+      <div class="tree" data-tree="cssObject">
+      <p>目的別</p>
+      </div>
+    </div>
+    <div class="menuItem javascript">
+      <p>javascript</p>
+      <div class="tree" data-tree="javascriptAbc">
+        <p>ABC順</p>
+      </div>
+      <div class="tree" data-tree="javascriptObject">
+        <p>目的別</p>
+      </div>
+    </div>
+    <div class="menuItem jQuery">
+      <p>jQuery</p>
+      <div class="tree" data-tree="jQueryAbc">
+        <p>ABC順</p>
+      </div>
+      <div class="tree" data-tree="jQueryObject">
+        <p>目的別</p>
+      </div>
+    </div>
+    <div class="menuItem PHP">
+        <p>php</p>
+        <div class="tree" data-tree="PHPAbc">
+          <p>ABC順</p>
+        </div>
+        <div class="tree" data-tree="PHPObject">
+          <p>目的別</p>
+        </div>
+      </div>
+  </div>
+</header>
+<div id="comment"></div>
+<div id="program">
+<h1>プログラム名</h1>
+</div>
+<div class="list htmlAbc">
+  <h2>html(ABC順)</h2>
+  <ul>
+    <li>テスト</li>
+  </ul>
+</div>
+<div class="list htmlObject">
+  <h2>html(目的別)</h2>
+  <ul>
+    <li　class="">テスト</li>
+  </ul>
+</div>
+<div class="list cssAbc">
+    <h2>css(ABC順)</h2>
+    <ul>
+      <li>テスト</li>
+    </ul>
+  </div>
+<div class="list cssObject">
+  <h2>css(目的別)</h2>
+  <ul>
+    <li　class="">テスト</li>
+  </ul>
+</div>
+<div class="list javascriptAbc">
+  <h2>javascript(ABC順)</h2>
+  <ul>
+    <li>テスト</li>
+  </ul>
+</div>
+<div class="list javascriptObject">
+  <h2>javascript(目的別)</h2>
+  <ul>
+    <li　class="">テスト</li>
+  </ul>
+</div>
+<div class="list jQueryAbc">
+    <h2>jQuery(ABC順)</h2>
+    <ul>
+      <li>テスト</li>
+    </ul>
+  </div>
+<div class="list jQueryObject">
+  <h2>jQuery(目的別)</h2>
+  <table>
+  <caption>jQuery(目的別)</caption>
+  <tr>
+    <th class="jQueryWrite">jQueryの書き方</th>
+    <th class="jQueryHide">要素を隠す</th>
+    <th class="jQuerySelect">セレクタの設定</th>
+    <th class="jQueryShow">要素を表示する</th>
+    <th class="jQueryEvent">イベント</th>
+    <th class="jQueryCss">cssメソッド</th>
+  </tr>
+  <tr>
+    <th class="jQueryHtml">HTMLを変更する</th>
+    <th class="jQueryThis">thisの構文</th>
+    <th class="jQueryVar">変数</th>
+    <th class="jQueryMethodchain">メソッドチェーン</th>
+    <th class="jQueryChild">子要素の取得</th>
+    <th class="jQueryHover">要素にマウスが乗り降りした時</th>
+  </tr>
+  <tr>
+    <th class="jQueryRead">jQueryファイル読み込み</th>
+    <th class="jQueryFormat">jQueryの型</th>
+    <th class="jQueryModal">モーダルの表示</th>
+    <th class="jQueryModalHide">モーダルを隠す</th>
+    <th class="jQuery"></th>
+    <th class="jQuery"></th>
+  </tr>
+
+
+  <tr>
+    <th class=""></th>
+    <th class=""></th>
+    <th class=""></th>
+    <th class=""></th>
+    <th class=""></th>
+    <th class=""></th>
+  </tr>
+  </table>
+  <ul>
+    <li class='test'>test</li>
+  </ul>
+
+</div>
+<div class="list PHPAbc">
+    <h2>PHP(ABC順)</h2>
+    <ul>
+      <li>テスト</li>
+    </ul>
+  </div>
+<div class="list PHPObject">
+  <h2>PHP(目的別)</h2>
+  <ul>
+    <li　class="">テスト</li>
+  </ul>
+</div>
+
+
+
+
+<!--　サンプル !-->
+<button id="process.stdin.on("data"function)">process.stdin.on("data"関数)<br>標準入力にデータが来た時に関数を呼び出す</button>
+<button id="resume()">resume()<br>テストの一時停止を解除して、次のテストの実行を開始する</button>
+
+<button id="export">export<br>他のファイルでも指定したクラスを使えるようにする</button>
+<button id="import">import<br>他ファイルでimportされたクラスを使用できるようにする</button>
+<button id="succession">継承<br>親クラスと同じ機能を持つ子クラスを作成する。</button>
+<button id="override">オーバーライド<br>親クラスと子クラスにおけるメソッドの優先順位</button>
+<button id="super">super()<br>コンストラクタのオーバーライド</button>
+
+<div id="write">
+  <div id="program">プログラム</div>
+  <div id="manual">解説</div>
+  <div id="image"></div>
+  <div id="sample"></div>
+</div>
+
+<script type="text/javascript">
+
+</script>
+<script type="text/javascript" src="javascript/javascript.js"></script>
+<script type="text/javascript" src="javascript/jquery-3.3.1.min.js"></script>
+<script type="text/javascript">
+let text=[]
+
+
+//以下言語のリストを表示するメニュー
+$('.test').click(function(){
+  console.log("test");
+});
+$('.menuItem').hover(
+  function(){$(this).find('.tree').show()},
+  function(){$('.tree').hide()}
+);
+
+$('.tree').click(function(){
+  $('.tree').hide();
+  var button=$(this).data('tree');
+  $('.list').hide();
+  switch(button){
+    case "htmlAbc":
+      $('.htmlAbc').show();
+      break;
+    case "htmlObject":
+      $('.htmlObject').show();
+      break;
+    case "cssAbc":
+      $('.cssAbc').show();
+      break;
+    case "cssObject":
+      $('.cssObject').show();
+      break;
+    case "javascriptAbc":
+      $('.javascriptAbc').show();
+      break;
+    case "javascriptObject":
+      $('.javascriptObject').show();
+      break;
+    case "jQueryAbc":
+      $('.jQueryAbc').show();
+      break;
+    case "jQueryObject":
+      $('.jQueryObject').show();
+      break;
+    case "PHPAbc":
+      $('.PHPAbc').show();
+      break;
+    case "PHPObject":
+      $('.PHPObject').show();
+      break;
+  };
+});
+
+//以下jQueryリストから項目を表示
+
+$('.jQueryWrite').click(function(){
+  $('#comment').fadeIn("fast");
+  text=[
+    "<h2 class='close'>x</h2>",
+    "<h2>jQueryの書き方</h2>",
+    "<p>$('セレクタ').メソッド(引数)",
+    "<br>$('セレクタ')はjQueryオブジェクトを作成する。",
+    "<br>メソッド(引数)はメソッドの呼び出しを行う。</p>",
+    "<p>例　$('h1').hide()",
+    "<br>h1要素が隠れる</p>"
+
+  ].join('');
+  $('#comment').html(text);
+
+  $('.close').click(function(){
+    $('#comment').fadeOut('fast');
+  });
+
+});
+$('.jQueryHide').click(function(){
+  $('#comment').fadeIn("fast");
+  text=[
+    "<h2 class='close'>x</h2>",
+    "<h2>要素を隠す</h2>",
+    "<p>$('セレクタ').fadeOut(ミリ秒);",
+    "<br>要素を隠す際に、徐々に消えていくアニメーションを追加",
+    "<br>引数でアニメーションの速度をミリ秒で指定</p>",
+    "<p>$('セレクタ').hide()",
+    "<br>要素を非表示にする</p>",
+    "<p>$('セレクタ').slideUp();",
+    "<br>要素を非表示にする際に、下から上へスライドする",
+    "<br>アニメーションを追加する",
+    "<br>引数でアニメーションの速度をミリ秒で指定",
+  ].join('');
+  $('#comment').html(text);
+  $('.close').click(function(){
+    $('#comment').fadeOut('fast');
+  });
+});
+$('.jQuerySelect').click(function(){
+  $('#comment').fadeIn("fast");
+  text=[
+    "<h2 class='close'>x</h2>",
+    "<h2>セレクタの設定</h2>",
+    "<p>classをセレクタにする",
+    "<br>$('.class').メソッド</p>",
+    "<p>例　$('.list-item').css('color','red');</p>",
+    "<p>idをセレクタにする",
+    "<br>$('#id').メソッド",
+    "<p>例 $('#list').css('margin'.'20px');"
+
+  ].join('');
+  $('#comment').html(text);
+
+  $('.close').click(function(){
+    $('#comment').fadeOut('fast');
+  });
+
+});
+$('.jQueryShow').click(function(){
+  $('#comment').fadeIn("fast");
+  text=[
+    "<h2 class='close'>x</h2>",
+    "<h2>要素を表示する</h2>",
+    "<p>$('セレクタ').show();</p>",
+    "<p>('セレクタ').fadeIn();",
+    "<br>要素を表示する際に、徐々に表示するアニメーションを追加",
+    "<br>引数にslowでアニメーションの速度をゆっくりにする<p>",
+    "<p>$('セレクタ').slideDown();",
+    "要素を表示する際に、上から下へスライドするアニメーションを追加"
+
+  ].join('');
+  $('#comment').html(text);
+
+  $('.close').click(function(){
+    $('#comment').fadeOut('fast');
+  });
+
+});
+$('.jQueryEvent').click(function(){
+  $('#comment').fadeIn("fast");
+  text=[
+    "<h2 class='close'>x</h2>",
+    "<h2>イベント</h2>",
+    "<p>$('セレクタ').イベント名(function(){",
+    "<br>処理",
+    "<br>});</p>",
+    "<p>セレクタがクリックされた時にイベント",
+    "<br>click(function(){});</p>"
+
+  ].join('');
+  $('#comment').html(text);
+
+  $('.close').click(function(){
+    $('#comment').fadeOut('fast');
+  });
+
+});
+$('.jQueryCss').click(function(){
+  $('#comment').fadeIn("fast");
+  text=[
+    "<h2 class='close'>x</h2>",
+    "<h2>CSSメソッド</h2>",
+    "<p>$('セレクタ').CSS('プロパディ名','値');</p>"
+
+  ].join('');
+  $('#comment').html(text);
+
+  $('.close').click(function(){
+    $('#comment').fadeOut('fast');
+  });
+
+});
+$('.jQueryHtml').click(function(){
+  $('#comment').fadeIn("fast");
+  text=[
+    "<h2 class='close'>x</h2>",
+    "<h2>HTMLを変更する</h2>",
+    "<p>$('セレクタ').text();",
+    "<br>セレクタ内の要素を引数の文字列で変更",
+    "<p>$('セレクタ').html();",
+    "<br>セレクタ内を引数のHTMLで変更</p>"
+
+  ].join('');
+  $('#comment').html(text);
+
+  $('.close').click(function(){
+    $('#comment').fadeOut('fast');
+  });
+
+});
+$('.jQueryThis').click(function(){
+  $('#comment').fadeIn("fast");
+  text=[
+    "<h2 class='close'>x</h2>",
+    "<h2>thisの構文</h2>",
+    "<p>$('this').イベント(function(){",
+    "<br> $(this).メソッド;",
+    "<br>});",
+    "<br>イベント内で起こった要素を取得することができる</p>",
+    "<p>例",
+    "<br>sample.html",
+    "<br>&lt;ul&gt;",
+    "<br>&ltli&gt;リスト1&lt;/li&gt;",
+    "<br>&ltli&gt;リスト2&lt;/li&gt;",
+    "<br>&ltli&gt;リスト3&lt;/li&gt;",
+    "<br>&lt;/ul&gt;",
+    "<br>sample.js",
+    "<br>$('li').click(function(){",
+    "<br>$(this).css('color','red');",
+    "<br>});</p>",
+    "<p>どのli要素をクリックしてもクリックイベントが発生",
+    "<br>$(this)にはクリックされたli要素が入る。",
+    "<br>リスト2を押せばリスト2が、",
+    "リスト1を押せばリスト1が赤くなる。</p>"
+  ].join('');
+  $('#comment').html(text);
+
+  $('.close').click(function(){
+    $('#comment').fadeOut('fast');
+  });
+
+});
+$('.jQueryVar').click(function(){
+  $('#comment').fadeIn("fast");
+  text=[
+    "<h2 class='close'>x</h2>",
+    "<h2>変数</h2>",
+    "<p>var $変数名=$('セレクタ');</p>",
+    "<p>例",
+    "<br>var $div=$('div');",
+    "<br>$div.css('color','red');",
+    "<br>$div.html('jQuery');",
+    "<br>$div.fadeOut();"
+  ].join('');
+  $('#comment').html(text);
+
+  $('.close').click(function(){
+    $('#comment').fadeOut('fast');
+  });
+
+});
+$('.jQueryMethodchain').click(function(){
+  $('#comment').fadeIn("fast");
+  text=[
+  "<h2 class='close'>x</h2>",
+  "<h2>メソッドチェーン</h2>",
+  "<p>$('セレクタ').メソッド.メソッド;</p>"
+
+  ].join('');
+  $('#comment').html(text);
+
+  $('.close').click(function(){
+  $('#comment').fadeOut('fast');
+  });
+
+});
+$('.jQueryChild').click(function(){
+  $('#comment').fadeIn("fast");
+  text=[
+    "<h2 class='close'>x</h2>",
+    "<h2>子要素の取得</h2>",
+    "<p>$('セレクタ').find('セレクタ').メソッド;",
+    "<br>子要素の中にあるfindの引数に指定したすべての要素を取得する</p>",
+    "<p>$('セレクタ').children('セレクタ').メソッド;",
+    "<br>一階層だけ下の子要素の中にあるchildrenの引数に指定下すべての要素を取得</p>"
+  ].join('');
+  $('#comment').html(text);
+
+  $('.close').click(function(){
+    $('#comment').fadeOut('fast');
+  });
+
+});
+$('.jQueryHover').click(function(){
+  $('#comment').fadeIn("fast");
+  text=[
+    "<h2 class='close'>x</h2>",
+    "<h2>要素にマウスが乗り降りした時</h2>",
+    "<p>$('セレクタ').hover(",
+    "<br>function(){マウスを乗せた時の処理},",
+    "<br>function(){マウスを外した時の処理}",
+    "<br>);</p>"
+  ].join('');
+  $('#comment').html(text);
+
+  $('.close').click(function(){
+    $('#comment').fadeOut('fast');
+  });
+
+});
+$('.jQueryRead').click(function(){
+  $('#comment').fadeIn("fast");
+  text=[
+    "<h2 class='close'>x</h2>",
+    "<h2>jQueryファイル読み込み</h2>",
+    "<p>&lt;script src='script.js'&gt;&lt;/script&gt;",
+    "<br>&lt;/body&gt;",
+    "<br>&lt;/body&gt;の直前に書くことで、WEBページの表示速度をより早くすることが出来る。</p>"
+
+  ].join('');
+  $('#comment').html(text);
+
+  $('.close').click(function(){
+    $('#comment').fadeOut('fast');
+  });
+
+});
+$('.jQueryFormat').click(function(){
+  $('#comment').fadeIn("fast");
+  text=[
+    "<h2 class='close'>x</h2>",
+    "<h2>jQueryの型</h2>",
+    "<p>$(document).ready(function(){",
+    "<br>処理",
+    "<br>});",
+    "<br>ready()はHTMLの読み込みが完了してから、jQueryを実行する。</p>",
+    "<p>省略形",
+    "<br>$(function(){処理};)",
+    "<br>readyイベントは省略出来る。"
+
+  ].join('');
+  $('#comment').html(text);
+
+  $('.close').click(function(){
+    $('#comment').fadeOut('fast');
+  });
+
+});
+$('.jQueryModal').click(function(){
+  $('#comment').fadeIn("fast");
+  text=[
+    "<h2 class='close'>x</h2>",
+    "<h2>モーダルの表示</h2>",
+    "<p>セレクタ{display:none};",
+    "<br>モーダルをcssで非表示にする</p>",
+    "<p>$('セレクタ').click(function(){",
+    "<br>$('セレクタ').click(function(){",
+    "<br>});",
+    "clickイベントを設定</p>"
+
+  ].join('');
+  $('#comment').html(text);
+
+  $('.close').click(function(){
+    $('#comment').fadeOut('fast');
+  });
+
+});
+$('.QueryModalHide').click(function(){
+  $('#comment').fadeIn("fast");
+  text=[
+    "<h2 class='close'>x</h2>",
+    "<h2>モーダルを隠す;</h2>",
+    "<p>テキスト</p>"
+
+  ].join('');
+  $('#comment').html(text);
+
+  $('.close').click(function(){
+    $('#comment').fadeOut('fast');
+  });
+
+});
+
+//テンプレート
+$('.セレクタ').click(function(){
+  $('#comment').fadeIn("fast");
+  text=[
+    "<h2 class='close'>x</h2>",
+    "<h2>&lt;目的&gt;</h2>",
+    "<p>テキスト</p>"
+
+  ].join('');
+  $('#comment').html(text);
+
+  $('.close').click(function(){
+    $('#comment').fadeOut('fast');
+  });
+
+});
+
+
+
+</script>
+</body>
+</html>
