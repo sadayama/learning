@@ -1,0 +1,63 @@
+ul{
+    list-style:none;
+}
+
+body{
+  background-color:green;
+  z-index:5;
+}
+table{
+  width:100%;
+}
+table th{
+  border:solid 1px black;
+}
+#menu{
+  height:50px;
+  width:100%;
+  background-color:orange;
+  display:flex;
+}
+.menuItem{
+  text-align:center;
+  height:50px;
+  width:24.839%;
+  border:solid 1px;
+  border-color:black;
+  float:left;
+  z-index:9;
+
+}
+.tree{
+  display:none;
+  position:relative;
+  border:solid 1px;
+  border-color:black;
+  z-index:9;
+  background-color:orange;
+}
+#program{
+  width:100%;
+  height:60px;
+  background-color:orange;
+  display:none;
+}
+.list{
+  width:100%;
+  background-color:orange;
+  display:none;
+}
+#comment{
+  display:none;
+  z-index:10;
+  background-color:white;
+  width:80%;
+  height:600px;
+  margin-left:10%;
+  padding:10px;
+  position:absolute;
+}
+.close{
+  float:right;
+  background-color:yellow;
+}
